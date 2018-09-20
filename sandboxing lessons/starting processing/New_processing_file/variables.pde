@@ -1,9 +1,9 @@
 //global variables
-int ballDiameter1 = 20;
-int ballDiameter2 = 20;
+int ballWidth;
+int ballHeight;
 
-int ballPosx = 300;
-int ballPosy = 300;
+int ballPosx;
+int ballPosy;
 
 int ballXSpeed = int(random(2, 5));
 int ballYSpeed = int(random(2, 5));
