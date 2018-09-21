@@ -1,5 +1,5 @@
 void setup() {
-  size(600,600);
+  size(800,800);
   ballPosx = width/2;
   ballPosy = height/2;
   ballWidth = width/35;
