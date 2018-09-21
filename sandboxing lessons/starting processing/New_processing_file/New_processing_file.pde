@@ -25,4 +25,5 @@ void draw() {
   ellipse(ballPosx, ballPosy,ballWidth,ballHeight);
   ballMove();
   paddle();
+  paddleMove();
 }

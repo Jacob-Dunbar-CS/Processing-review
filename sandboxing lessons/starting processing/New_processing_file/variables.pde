@@ -20,3 +20,5 @@ int paddle2X;
 int paddle2Y;
 int paddle2Length;
 int paddle2Width;
+
+boolean [] keys = new boolean[4];
