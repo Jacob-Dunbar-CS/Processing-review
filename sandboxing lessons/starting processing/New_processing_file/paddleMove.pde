@@ -15,8 +15,8 @@ void paddleMove() {
 
   if (keys[2] == true) {
     paddle2Y = paddle2Y - 5;
-    if (paddle1Y <= 0) {
-      paddle1Y = 0;
+    if (paddle2Y <= 0) {
+      paddle2Y = 0;
     }
   }
 
