@@ -26,4 +26,5 @@ void draw() {
   ballMove();
   paddle();
   paddleMove();
+  paddleCollide();
 }
