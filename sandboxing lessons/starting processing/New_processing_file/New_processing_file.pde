@@ -28,4 +28,5 @@ void draw() {
   paddle();
   paddleMove();
   paddleCollide();
+  scoreCheck();
 }
