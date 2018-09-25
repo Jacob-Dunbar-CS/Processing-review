@@ -1,6 +1,7 @@
 //global variables
 int ballWidth;
 int ballHeight;
+int ballRad;
 
 int ballPosx;
 int ballPosy;
