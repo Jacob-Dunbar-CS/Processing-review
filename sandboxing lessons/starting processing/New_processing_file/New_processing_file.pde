@@ -19,9 +19,10 @@ void setup() {
   score[0] = 0;
   score[1] = 0;
   
+  font = createFont("Arial", 16);
+  textFont(font, 36);
+  
   background(20);
-  println(ballPosx);
-  println(ballPosy);
 }
 
 void draw() {
