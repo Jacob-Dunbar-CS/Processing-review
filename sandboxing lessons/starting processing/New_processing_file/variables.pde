@@ -20,3 +20,4 @@ int paddle2Length;
 int paddle2Width;
 
 boolean [] keys = new boolean[4];
+int [] score = new int[2];

@@ -15,6 +15,10 @@ void setup() {
   ballWidth = width/35;
   ballHeight = height/35;
   ballRad = ballWidth/2;
+  
+  score[0] = 0;
+  score[1] = 0;
+  
   background(20);
   println(ballPosx);
   println(ballPosy);
