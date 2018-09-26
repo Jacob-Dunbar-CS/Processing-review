@@ -22,7 +22,7 @@ void setup() {
   font = createFont("Times New Roman", 16);
   textFont(font, 36);
 
-  background(20);
+  background(0);
   
   zeroCheck();
 }
