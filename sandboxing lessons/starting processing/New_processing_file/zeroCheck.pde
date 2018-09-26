@@ -13,15 +13,15 @@ void zeroCheck() {
     ballYSpeed = floor(ballXSpeedRand);
   }
   if (ballXSpeed <= 3 && ballXSpeed >= 0) {
-    ballXSpeed += 3;
+    ballXSpeed += 2;
   }
   if (ballXSpeed >= -3 && ballXSpeed <= 0) {
-    ballXSpeed -= 3;
+    ballXSpeed -= 2;
   }
   if (ballYSpeed <= 3 && ballYSpeed >= 0) {
-    ballYSpeed += 3;
+    ballYSpeed += 2;
   }
   if (ballYSpeed >= -3 && ballYSpeed <= 0) {
-    ballYSpeed -= 3;
+    ballYSpeed -= 2;
   }
 }
