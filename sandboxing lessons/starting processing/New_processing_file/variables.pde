@@ -6,7 +6,7 @@ int ballRad;
 int ballPosx;
 int ballPosy;
 
-int ballXSpeed = int(random(2, 5));
+int ballXSpeed = int(random(4, 6));
 int ballYSpeed = int(random(2, 5));
 
 int paddle1X;
