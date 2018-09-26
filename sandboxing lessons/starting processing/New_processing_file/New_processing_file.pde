@@ -34,4 +34,5 @@ void draw() {
   paddleMove();
   paddleCollide();
   scoreCheck();
+  scorePrint();
 }
