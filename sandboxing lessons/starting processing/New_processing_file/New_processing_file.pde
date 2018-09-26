@@ -23,6 +23,8 @@ void setup() {
   textFont(font, 36);
 
   background(20);
+  
+  zeroCheck();
 }
 
 void draw() {
