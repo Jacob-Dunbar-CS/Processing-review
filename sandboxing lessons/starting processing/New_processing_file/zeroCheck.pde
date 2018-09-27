@@ -1,27 +1,17 @@
 void zeroCheck() {
-
-  if (ballXSpeedRand > 0) {
-    ballXSpeed = ceil(ballXSpeedRand);
-  }
-  if (ballXSpeedRand < 0) {
+  while(ballXSpeedRand > -3 && ballXSpeedRand < 3) {
+    ballXSpeedRand = random(-6,6);
+  }if(ballXSpeedRand > -6 && ballXSpeedRand < -3){
+    ballXSpeed = floor(ballXSpeedRand);
+  }if(ballXSpeedRand < 6 && ballXSpeedRand > 3){
     ballXSpeed = floor(ballXSpeedRand);
   }
-  if (ballYSpeedRand > 0) {
-    ballYSpeed = ceil(ballXSpeedRand);
-  }
-  if (ballYSpeedRand < 0) {
-    ballYSpeed = floor(ballXSpeedRand);
-  }
-  if (ballXSpeed <= 3 && ballXSpeed >= 0) {
-    ballXSpeed += 2;
-  }
-  if (ballXSpeed >= -3 && ballXSpeed <= 0) {
-    ballXSpeed -= 2;
-  }
-  if (ballYSpeed <= 3 && ballYSpeed >= 0) {
-    ballYSpeed += 2;
-  }
-  if (ballYSpeed >= -3 && ballYSpeed <= 0) {
-    ballYSpeed -= 2;
-  }
+  
+  while(ballYSpeedRand > -3 && ballYSpeedRand < 3) {
+    ballYSpeedRand = random(-6,6);
+  }if(ballYSpeedRand > -6 && ballYSpeedRand < -3){
+    ballYSpeed = floor(ballYSpeedRand);
+  }if(ballYSpeedRand < 6 && ballYSpeedRand > 3){
+    ballYSpeed = floor(ballYSpeedRand);
+  }  
 }
