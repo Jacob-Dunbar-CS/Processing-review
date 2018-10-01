@@ -1,6 +1,7 @@
 void ballMove(){
   ballPosx = ballPosx + ballXSpeed;
   ballPosy = ballPosy + ballYSpeed;
+
   if(ballPosx <= width/70){
     ballXSpeed = ballXSpeed*(-1);
   }
