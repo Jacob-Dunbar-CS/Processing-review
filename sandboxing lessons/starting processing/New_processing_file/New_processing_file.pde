@@ -1,5 +1,6 @@
 void setup() {
   size(800, 800);
+  
   paddle1X = width*1/18;
   paddle1Y = height*7/16;
   paddle1Length = width/50;

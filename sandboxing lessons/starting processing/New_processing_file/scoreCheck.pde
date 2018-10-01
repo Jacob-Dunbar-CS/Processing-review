@@ -3,7 +3,7 @@ void scoreCheck() {
     ballPosx = width/2;
     ballPosy = height/2;
     
-    ballYSpeed *= -1;
+    ballXSpeed *= -1;
     
     score[1] += 1;
     println("Score is: " + score[0] + " to " + score[1]);
@@ -12,7 +12,7 @@ void scoreCheck() {
     ballPosx = width/2;
     ballPosy = height/2;
     
-    ballYSpeed *= -1;
+    ballXSpeed *= -1;
     
     score[0] += 1;
     println("Score is: " + score[0] + " to " + score[1]);
