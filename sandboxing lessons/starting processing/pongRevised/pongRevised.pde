@@ -1,5 +1,7 @@
 void setup() {
   size(800, 800);
+  
+  speedCheck();
 
   paddle1X = width*1/18;
   paddle1Y = height*7/16;
@@ -42,10 +44,14 @@ void setup() {
   text[4] = "||";
   text[5] = "Play";
   text[6] = "Back";
+  text[7] = "Play Again?";
 }
 
 void draw() {
   if (page[0] == true) {
     menu();
+  }
+  if(page[1] == true) {
+    singlePlayer();
   }
 }
