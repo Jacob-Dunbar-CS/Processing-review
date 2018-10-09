@@ -1,6 +1,5 @@
-void singlePlayer() {
+void twoPlayer() {
   background(0);
-  paddle2Y = ballPosy-(width/25);
 
   rect(paddle1X, paddle1Y, paddle1Length, paddle1Width);
   rect(paddle2X, paddle2Y, paddle2Length, paddle2Width);
@@ -22,11 +21,18 @@ void singlePlayer() {
       paddle1Y = height - paddle1Width;
     }
   }
-  
-  if (paddle2Y >= height + paddle2Width) {//paddle2Width) {
-    paddle2Y = height - paddle2Width;
+
+  if (keys[2] == true) {
+    paddle2Y = paddle2Y - 5;
+    if (paddle2Y <= 0) {
+      paddle2Y = 0;
+    }
   }
-  if (paddle2Y <= 0) {
-    paddle2Y = 0;
-  }   
+
+  if (keys[3] == true) {
+    paddle2Y = paddle2Y + 5;
+    if (paddle2Y >= height - paddle2Width) {
+      paddle2Y = height - paddle2Width;
+    }
+  }
 }

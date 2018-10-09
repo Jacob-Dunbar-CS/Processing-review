@@ -54,4 +54,7 @@ void draw() {
   if(page[1] == true) {
     singlePlayer();
   }
+  if(page[2] == true) {
+    twoPlayer();
+  }
 }
