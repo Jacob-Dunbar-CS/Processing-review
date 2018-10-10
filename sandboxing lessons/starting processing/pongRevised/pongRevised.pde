@@ -31,11 +31,12 @@ void setup() {
   page[1] = false;
   page[2] = false;
 
-  select[0] = false;
-  select[1] = false;
-  select[2] = false;
-  select[3] = false;
-  select[4] = false;
+  select[0] = false; //singlePlayer
+  select[1] = false; //twoPlayer
+  select[2] = false; //exit
+  select[3] = false; //back
+  select[4] = false; //play again
+  select[5] = false; //pause
 
   text[0] = "Pong";
   text[1] = "Single Player";

@@ -1,6 +1,9 @@
 void menu() {
   background(0);
   text(text[0], width/64, height*3/64);
+  select[3] = false;
+  paddle1Y = height*7/16;
+  paddle2Y = height*7/16;
 
   if (mouseX >= width/64 && mouseX <= width/64 + width/4 && mouseY >= height/16 && mouseY <= height/16 + height/32) {
     select[0] = true;

@@ -21,10 +21,16 @@ int paddle2Y;
 int paddle2Length;
 int paddle2Width;
 
+int paddle1Speed = 5;
+int paddle2Speed = 5;
+
+int scoreDif1;
+int scoreDif2;
+
 boolean [] keys = new boolean[4];
 int [] score = new int[2];
 boolean [] page = new boolean[3];
 String [] text = new String[8];
-boolean [] select = new boolean[5];
+boolean [] select = new boolean[6];
 
 PFont font;

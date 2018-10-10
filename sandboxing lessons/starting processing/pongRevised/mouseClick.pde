@@ -13,4 +13,12 @@ void mousePressed(){
   if(mousePressed == true && select[2] == true) {
     exit();
   }
+  
+  if(mousePressed == true && select[3] == true) {
+    page[0] = true;
+    page[1] = false;
+    page[2] = false;
+    score[0] = 0;
+    score[1] = 0;
+  }
 }
