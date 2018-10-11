@@ -10,10 +10,11 @@ void pause() {
     textFont(font,36);
   }else if (gameState == 1) {
     background(0);
-    ballXSpeed = ballXSpeedRand;
-    ballYSpeed = ballYSpeedRand;
+    speedCheck();
     paddle1Speed = 5;
     paddle2Speed = 5;
     textFont(font,36);
+    paddleCollide();
+    ballMove();
   }
 }

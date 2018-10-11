@@ -1,5 +1,5 @@
 void singlePlayer() {
-  pause();
+  //pause();
   if (score[0] == 11) {
     background(0);
     if (mouseX >= width*3/16 && mouseX <= width*3/16 + width/8 && mouseY >= height*22/36  && mouseY <= height*22/36 + height/16) {
@@ -21,7 +21,7 @@ void singlePlayer() {
     }else {
       fill(255);
       text(text[6], width*3/16, height*23/36);
-      text("Player 21 Wins!", width*3/8, height/2);
+      text("Player 1 Wins!", width*3/8, height/2);
       text(text[7], width*10/16, height*23/36);
       select[3] = false;
       select[4] = false;
@@ -53,6 +53,7 @@ void singlePlayer() {
       select[4] = false;
     }
   } else {
+    pause();
     background(0);
     //paddle2Y = ballPosy-(width/25);
 
