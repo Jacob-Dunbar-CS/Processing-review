@@ -6,12 +6,24 @@ void singlePlayer() {
       text(text[6], width*3/16, height*23/36);
       fill(255);
       text("Player 1 Wins!", width*3/8, height/2);
+      text(text[7], width*10/16, height*23/36);
       select[3] = true;
-    } else {
+      select[4] = false;
+    }else if(mouseX >= width*10/16 && mouseX <= width*10/16 + width*7/32 && mouseY >= height*22/36 && mouseY <= height*22/36 + height/16){
+      fill(255,0,0);
+      text(text[7],width*10/16,height*23/36);
       fill(255);
       text(text[6], width*3/16, height*23/36);
       text("Player 1 Wins!", width*3/8, height/2);
       select[3] = false;
+      select[4] = true;
+    }else {
+      fill(255);
+      text(text[6], width*3/16, height*23/36);
+      text("Player 21 Wins!", width*3/8, height/2);
+      text(text[7], width*10/16, height*23/36);
+      select[3] = false;
+      select[4] = false;
     }
   } else if (score[1] == 11) {
     background(0);
@@ -20,12 +32,24 @@ void singlePlayer() {
       text(text[6], width*3/16, height*23/36);
       fill(255);
       text("Player 2 Wins!", width*3/8, height/2);
+      text(text[7], width*10/16, height*23/36);
       select[3] = true;
-    } else {
+      select[4] = false;
+    }else if(mouseX >= width*10/16 && mouseX <= width*10/16 + width*7/32 && mouseY >= height*22/36 && mouseY <= height*22/36 + height/16){
+      fill(255,0,0);
+      text(text[7],width*10/16,height*23/36);
       fill(255);
       text(text[6], width*3/16, height*23/36);
       text("Player 2 Wins!", width*3/8, height/2);
       select[3] = false;
+      select[4] = true;
+    }else {
+      fill(255);
+      text(text[6], width*3/16, height*23/36);
+      text("Player 2 Wins!", width*3/8, height/2);
+      text(text[7], width*10/16, height*23/36);
+      select[3] = false;
+      select[4] = false;
     }
   } else {
     background(0);

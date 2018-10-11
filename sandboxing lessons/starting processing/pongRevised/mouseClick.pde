@@ -21,4 +21,8 @@ void mousePressed(){
     score[0] = 0;
     score[1] = 0;
   }
+  
+  if(mousePressed == true && select[4] == true) {
+    resetGame();
+  }
 }
