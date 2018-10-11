@@ -15,6 +15,20 @@ void keyPressed() {
       keys[3] = true;
     }
   }
+  if (key == ' ' && gameState == 1) {
+    gameState = 0;
+  }
+  if (key == 'c'  && gameState == 0) {
+    gameState = 1;
+  }
+  if (key == 'b'  && gameState == 0) {
+    page[0] = true;
+    page[1] = false;
+    page[2] = false;
+    score[0] = 0;
+    score[1] = 0;
+    gameState = 1;
+  }
 }
 
 void keyReleased() {

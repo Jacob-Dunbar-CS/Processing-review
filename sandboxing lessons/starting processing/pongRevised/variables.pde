@@ -3,13 +3,14 @@ int ballWidth;
 int ballHeight;
 int ballRad;
 
-int ballPosx;
-int ballPosy;
+float ballPosx;
+float ballPosy;
 
 float ballXSpeedRand = random(-6, 6);
 float ballYSpeedRand = random(-6, 6);
-int ballXSpeed;
-int ballYSpeed;
+float ballXSpeed;
+float ballYSpeed;
+
 
 int paddle1X;
 int paddle1Y;
@@ -32,5 +33,6 @@ int [] score = new int[2];
 boolean [] page = new boolean[3];
 String [] text = new String[8];
 boolean [] select = new boolean[6];
+int gameState = 1;
 
 PFont font;
