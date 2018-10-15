@@ -33,6 +33,5 @@ int [] score = new int[2];
 boolean [] page = new boolean[3];
 String [] text = new String[8];
 boolean [] select = new boolean[6];
-int gameState = 1;
 
 PFont font;

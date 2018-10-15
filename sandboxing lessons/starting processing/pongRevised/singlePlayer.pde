@@ -1,5 +1,4 @@
 void singlePlayer() {
-  //pause();
   if (score[0] == 11) {
     background(0);
     if (mouseX >= width*3/16 && mouseX <= width*3/16 + width/8 && mouseY >= height*22/36  && mouseY <= height*22/36 + height/16) {
@@ -53,9 +52,7 @@ void singlePlayer() {
       select[4] = false;
     }
   } else {
-    pause();
     background(0);
-    //paddle2Y = ballPosy-(width/25);
 
     rect(paddle1X, paddle1Y, paddle1Length, paddle1Width);
     rect(paddle2X, paddle2Y, paddle2Length, paddle2Width);

@@ -1,5 +1,5 @@
 void setup() {
-  size(800, 800);
+  size(1000, 1000);
   
   speedCheck();
 
@@ -46,6 +46,7 @@ void setup() {
   text[5] = "Play";
   text[6] = "Back";
   text[7] = "Play Again?";
+  
 }
 
 void draw() {
@@ -58,4 +59,6 @@ void draw() {
   if(page[2] == true) {
     twoPlayer();
   }
+  println(ballXSpeed);
+  println(ballYSpeed);
 }
