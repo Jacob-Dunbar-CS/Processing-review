@@ -59,6 +59,4 @@ void draw() {
   if(page[2] == true) {
     twoPlayer();
   }
-  println(ballXSpeed);
-  println(ballYSpeed);
 }
